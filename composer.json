@@ -19,7 +19,7 @@
     "minimum-stability": "dev",
     "autoload":{
     	"psr-4":{
-			"Dannetrichard\\TopSdk\\": "src/",
+            "Dannetrichard\\TopSdk\\": "src",
     	}
     }
 }
