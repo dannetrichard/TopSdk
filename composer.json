@@ -3,20 +3,19 @@
     "description": "topsdk",
     "type": "library",
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=7.0.0"
     },
     "require-dev": {
-        "mockery/mockery": "~0.9.3",
-        "phpunit/phpunit": "^5.7"
+        "phpunit/phpunit": "6.2.3",
+        "orchestra/testbench": "3.4.8"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "jin jun",
+            "name": "dannetrichard",
             "email": "jinjun1026@icloud.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload":{
     	"psr-4":{"Dannetrichard\\TopSdk\\": "src/"}
     },
