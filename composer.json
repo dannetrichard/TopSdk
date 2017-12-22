@@ -19,5 +19,15 @@
     "minimum-stability": "dev",
     "autoload":{
     	"psr-4":{"Dannetrichard\\TopSdk\\": "src/"}
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dannetrichard\\TopSdk\\TopSdkServiceProvider"
+            ],
+            "aliases": {
+                "TopSdk": "Dannetrichard\\TopSdk\\Facades\\TopSdk"
+            }
+        }
     }
 }
