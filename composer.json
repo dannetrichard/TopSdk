@@ -16,7 +16,7 @@
         }
     ],
     "autoload":{
-        "psr-4":{"Dannetrichard\\TopSdk\\": "src/"}
+    	"psr-4":{"Dannetrichard\\TopSdk\\": "src/"}
     },
     "autoload-dev": {
         "psr-4": {
