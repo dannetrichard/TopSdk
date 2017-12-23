@@ -5,6 +5,8 @@
     "require": {
     },
     "require-dev": {
+        "phpunit/phpunit": "6.2.3",
+        "orchestra/testbench": "3.4.8"
     },
     "license": "MIT",
     "authors": [
@@ -14,7 +16,12 @@
         }
     ],
     "autoload":{
-    	"psr-4":{"Dannetrichard\\TopSdk\\": "src/"}
+        "psr-4":{"Dannetrichard\\TopSdk\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dannetrichard\\TopSdk\\Tests\\": "tests/"
+        }
     },
     "extra": {
         "laravel": {
