@@ -1,4 +1,5 @@
 <?php
+namespace Dannetrichard\TopSdk\Top;
 class TopClient
 {
 	public $appkey;

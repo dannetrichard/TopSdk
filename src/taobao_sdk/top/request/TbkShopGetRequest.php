@@ -1,4 +1,5 @@
 <?php
+namespace Dannetrichard\TopSdk\Top\Request;
 /**
  * TOP API: taobao.tbk.shop.get request
  * 

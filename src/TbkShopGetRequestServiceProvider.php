@@ -4,7 +4,7 @@ namespace Dannetrichard\TopSdk;
 
 use Illuminate\Support\ServiceProvider;
 
-class TopSdkServiceProvider extends ServiceProvider
+class TbkShopGetRequestServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -23,8 +23,8 @@ class TopSdkServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('topsdk', function () {
-            return new TopSdk();
+        $this->app->singleton('TbkShopGetRequest', function () {
+            return new TbkShopGetRequest();
         });
     }
 }

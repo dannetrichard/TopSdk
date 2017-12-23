@@ -27,10 +27,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Dannetrichard\\TopSdk\\TopSdkServiceProvider"
+                "Dannetrichard\\TopSdk\\TbkShopGetRequestServiceProvider"
             ],
             "aliases": {
-                "TopSdk": "Dannetrichard\\TopSdk\\Facades\\TopSdk"
+                "TopSdk": "Dannetrichard\\TopSdk\\Facades\\TbkShopGetRequest"
             }
         }
     }
