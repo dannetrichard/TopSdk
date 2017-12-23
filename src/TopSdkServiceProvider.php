@@ -24,7 +24,7 @@ class TopSdkServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('topsdk', function () {
-            return new TopSdk();
+            return new Hello();
         });
     }
 }
