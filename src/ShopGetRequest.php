@@ -5,7 +5,7 @@ namespace Dannetrichard\TopSdk;
 use Dannetrichard\TopSdk\Top\TopClient;
 use Dannetrichard\TopSdk\Top\Request\TbkShopGetRequest;
 
-class TbkShopGetRequest
+class ShopGetRequest
 {
 	protected $c;
 	public $req;

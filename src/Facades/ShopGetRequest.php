@@ -4,10 +4,10 @@ namespace Dannetrichard\TopSdk\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class TbkShopGetRequest extends Facade
+class ShopGetRequest extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'TbkShopGetRequest';
+        return 'ShopGetRequest';
     }
 }
