@@ -5,9 +5,9 @@
  * @author auto create
  * @since 1.0, 2016.01.05
  */
-namespace TopClient\Request;
+namespace Dannetrichard\TopSdk\Top\Request;
+use Dannetrichard\TopSdk\Top\RequestCheckUtil;
 
-use TopClient\RequestCheckUtil;
 
 class TbkItemInfoGetRequest
 {

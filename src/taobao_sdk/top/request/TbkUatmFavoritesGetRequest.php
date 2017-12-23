@@ -1,4 +1,6 @@
 <?php
+namespace Dannetrichard\TopSdk\Top\Request;
+use Dannetrichard\TopSdk\Top\RequestCheckUtil;
 /**
  * TOP API: taobao.tbk.uatm.favorites.get request
  * 
