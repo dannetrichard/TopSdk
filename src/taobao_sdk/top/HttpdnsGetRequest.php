@@ -1,5 +1,5 @@
 <?php
-
+namespace Dannetrichard\TopSdk\Top;
 class HttpdnsGetRequest
 {
 	private $apiParas = array();

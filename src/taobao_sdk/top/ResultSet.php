@@ -1,4 +1,5 @@
 <?php
+namespace Dannetrichard\TopSdk\Top;
 /**
  * 返回的默认类
  * 

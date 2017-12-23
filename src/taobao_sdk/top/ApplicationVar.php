@@ -1,5 +1,5 @@
 <?php
-
+namespace Dannetrichard\TopSdk\Top;
 class ApplicationVar
 {
 	var $save_file;
@@ -43,5 +43,3 @@ class ApplicationVar
       @fclose($fp);
  	}
 }
-
-?>

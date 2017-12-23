@@ -1,4 +1,5 @@
 <?php
+namespace Dannetrichard\TopSdk\Top;
 /**
  * API入参静态检查类
  * 可以对API的参数类型、长度、最大值等进行校验
@@ -104,4 +105,3 @@ class RequestCheckUtil
 	}
 
 }
-?>
