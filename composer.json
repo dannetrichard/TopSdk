@@ -30,7 +30,7 @@
                 "Dannetrichard\\TopSdk\\TbkShopGetRequestServiceProvider"
             ],
             "aliases": {
-                "TopSdk": "Dannetrichard\\TopSdk\\Facades\\TbkShopGetRequest"
+                "TbkShopGetRequest": "Dannetrichard\\TopSdk\\Facades\\TbkShopGetRequest"
             }
         }
     }
