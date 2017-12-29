@@ -1,4 +1,5 @@
 <?php
+namespace Dannetrichard\TopSdk\Top\Request;
 /**
  * TOP API: taobao.wireless.share.tpwd.create request
  * 

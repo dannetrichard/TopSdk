@@ -1,5 +1,5 @@
 <?php
-
+namespace Dannetrichard\TopSdk\Top\Domain;
 /**
  * 口令参数
  * @author auto create
@@ -32,4 +32,3 @@ class GenPwdIsvParamDto
 	 **/
 	public $user_id;	
 }
-?>
